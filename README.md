@@ -1,45 +1,41 @@
-# Medina Telemetry Systems
+<img alt="Medina Telemetry Systems: detection engineering and threat intelligence" src="assets/banner.png" width="100%">
 
-**Detection engineering and threat intelligence for small and mid-sized organizations.**
+## Documented, tested detection for small and mid-sized organizations
 
-We track newly published and actively exploited vulnerabilities every day, and turn the ones that matter into
-**documented, tested detection rules** for your SIEM and network sensors.
-
-Every rule comes with a plain-English card explaining:
-
-- **What it detects**, and why that part of the attack is the harmful part
-- **Where the evidence came from**: vendor advisory, patch or public proof of concept, quoted and linked
-- **False-positive notes**, written for the people who will get the alerts
-- **Test evidence**: proof that the rule fires on the attack and stays quiet on normal traffic
-- **An ATT&CK mapping and a status**: `experimental` → `test` (lab-proven) → `stable`
+Medina Telemetry Systems tracks newly disclosed and actively exploited vulnerabilities every day, and turns the ones that matter into detection rules your SIEM and network sensors can use. Every rule is proven against test samples and documented so your analysts know exactly what it detects, and why.
 
 ## Services
 
-| | |
-|---|---|
-| **Detection feed** | Daily Sigma, Suricata and YARA rules for newly disclosed and exploited vulnerabilities |
-| **Vulnerability prioritization** | What to patch first, based on real exploitation, not only CVSS |
-| **Threat intelligence consulting** | Analyst support adapted to your environment |
+| Service | Description |
+|:--|:--|
+| **Detection engineering** | Daily Sigma, Suricata and YARA rules for newly disclosed and actively exploited vulnerabilities, with conversions for Splunk, Microsoft Sentinel and Elastic |
+| **Vulnerability prioritization** | What to patch first, based on real-world exploitation rather than severity scores alone |
+| **Threat intelligence** | Analyst support and finished intelligence adapted to your environment |
 
-## About the founder
+## Our standard
 
-Former FBI Special Agent (counterintelligence and cyber investigations) turned Information System Security Specialist
-turned Cyber Threat Intelligence analyst: 10 years across law enforcement, federal counterintelligence and
-cybersecurity, including numerous government contracts supporting the Intelligence Community and DoD.
+Every rule we release includes:
 
-Specializes in turning threat intelligence and proof-of-concept exploit analysis into detection requirements and
-countermeasures, with a focus on Chinese and Russian state-sponsored threats.
+- **Rationale:** what the rule detects, and why that part of the attack is the harmful part
+- **Source evidence:** the vendor advisory, patch or proof of concept it is based on, quoted and linked
+- **False-positive guidance,** written for the analysts who will receive the alerts
+- **Test evidence:** proof that it fires on the attack and stays silent on normal activity
+- **MITRE ATT&CK mapping** and a maturity status: experimental, lab-tested or stable
 
-CompTIA Security+ · CySA+ · PenTest+ · eJPT · pursuing CISSP
+Severity is reported as the CVSS v3.1 base score.
 
-[Connect on LinkedIn](https://www.linkedin.com/in/uzoma-onwumere-160966273)
+## Leadership
 
-## Explore
+**Founder.** Former FBI Special Agent (counterintelligence and cyber investigations), Information System Security Specialist, and Cyber Threat Intelligence analyst, with 10 years across law enforcement, federal counterintelligence and cybersecurity. That includes numerous government contracts supporting the Intelligence Community and DoD. Specializes in turning threat intelligence and proof-of-concept exploit analysis into detection requirements and countermeasures, with a focus on Chinese and Russian state-sponsored threats.
 
-- **[detections-public](https://github.com/Medina-Telemetry-Systems/detections-public):** free sample rules, advisories, and how we test
+CompTIA Security+, CySA+ and PenTest+, plus eJPT. CISSP in progress.
 
-## Subscriptions
+[LinkedIn](https://www.linkedin.com/in/uzoma-onwumere-160966273)
 
-Subscriptions are opening soon. Watch or star **detections-public** to hear first.
+## Work samples
 
-<sub>Severity is always reported as the CVSS v3.1 base score. Rules are provided as-is; see each repository's license.</sub>
+Sample rules, advisories and our testing methodology are published in [**detections-public**](https://github.com/Medina-Telemetry-Systems/detections-public).
+
+## Engagements
+
+Subscriptions are opening soon. To be notified, watch the [detections-public](https://github.com/Medina-Telemetry-Systems/detections-public) repository.
